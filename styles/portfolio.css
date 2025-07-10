@@ -160,7 +160,7 @@ main {
 }
 .skills {
     margin-top: 130px;
-    padding: 130px 150px;
+    /* padding: 130px 150px; */
 }
 
 .skill{
@@ -188,5 +188,40 @@ main {
 .resume-download{
     margin-top: 50px;
     text-align: center;
+}
 
+/* footer styles */
+.Footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+    /* background-color: #FFF8F3 */
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 1px solid #d5a113;
+    border-radius: 5px;
+    width: 50%;
+    padding: 15px 30px;
+}
+
+.footer-content{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    margin-top: 30px;
+}
+.section-description-footer{
+    width: 50%;
+}
+
+.footer-button{
+    display: flex;
+    align-items: center;
 }
